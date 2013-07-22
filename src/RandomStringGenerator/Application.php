@@ -51,6 +51,8 @@ class RandomStringGenerator_Application
                 }
             }
 
+            echo "Generated {$this->stringCount} strings successfully", PHP_EOL;
+
             return self::STATUS_OK;
         }
         catch (Exception $e) {
