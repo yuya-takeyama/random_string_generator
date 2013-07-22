@@ -10,7 +10,7 @@ $app = new RandomStringGenerator_Application(
     // 生成する文字列の数
     1000000,
     // 許容するエラー回数
-    100,
+    1000,
     // ランダム文字列生成器
     // RandomStringGenerator を使うときは使用可能な文字列と生成する文字列の長さを引数に指定できる
     new RandomStringGenerator_RandomStringGenerator('23456789abcdefghjkmnpqrstuvwxyz', 6),
