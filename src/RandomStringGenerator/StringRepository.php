@@ -3,6 +3,8 @@ class RandomStringGenerator_StringRepository implements Countable
 {
     private $strings;
 
+    private $count;
+
     public function __construct()
     {
         $this->strings = array();
