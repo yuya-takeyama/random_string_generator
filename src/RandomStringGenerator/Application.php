@@ -31,8 +31,7 @@ class RandomStringGenerator_Application
 
     public function run()
     {
-        $generatedStringCount = 0;
-        $errorCount           = 0;
+        $errorCount = 0;
 
         try {
             while ($this->stringRepository->count() < $this->stringCount) {
