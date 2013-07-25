@@ -18,7 +18,7 @@ class RandomStringGenerator_StringRepository implements Countable
 
     public function set($str)
     {
-        if (isset($this->string[$str])) {
+        if (isset($this->strings[$str])) {
             throw new RuntimeException('Duplicated string is set: '. $str);
         }
 
